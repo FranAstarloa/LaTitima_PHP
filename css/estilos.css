@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* TEXTOS ================================  */
+
+h1, h2, h3, h4, p{
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	font-family: 'EB Garamond', serif;
+}
+
+h1{
+	font-size:55px;
+	font-weight: 400;
+	text-align:center;
+	letter-spacing: 0.0em;    
+	margin-bottom:30px;
+}
+
+section h1{
+	margin-bottom:50px;
+}
+
+h2{
+	font-weight: 400;
+	font-size:30px;
+	line-height:1.3;
+	text-transform: capitalize;
+	text-align:left;
+}
+
+h3{
+	font-weight: 400;
+	font-size:18px;
+	line-height:1.3;
+}
+
+p{
+	/*font-family: 'Asap', sans-serif;*/
+	font-size:22px;
+}
+
+@media (max-width:1000px){
+	h1{
+		font-size:57px;
+		letter-spacing: 0.1em    
+	}
+	h2{
+		font-size:23px;
+	}
+}
+
+@media (max-width:768px){
+	h1{
+		font-size:30px;
+		letter-spacing: 0em;    
+		margin-bottom:36px;
+	}
+	h2{
+		font-size:18px;
+	}
+	h3{
+		font-size:16px;
+	}
+}
+
+.mayusculas{
+	text-transform:uppercase;
+}
+/* FIN TEXTOS ================================  */
+
+
+/*  VARIOS ================================  */
+.txtcolor1{color:#C76D63!important;}
+/*.txtcolor2{color:#3e4095!important;}*/
+.txtblanco{color:#2d2d2b!important;}
+.txtnegro{color:black!important;}
+
+.bg1, .btnbg1{background-color:#BF717D!important;}
+/*.bg2, .btnbg2{background-color:#3e4095!important;}*/
+
+.btnbg1:hover{background-color:#C76D63!important;}
+/*.btnbg2:hover{background-color:#87cfd6!important;}*/
+
+a{font-family: 'Asap', sans-serif;letter-spacing: 0.05em;text-decoration:none!important;}
+a:hover, a:active{text-decoration:none;}
+
+.margarr10{margin-top:10px;}
+.margarr20{margin-top:20px;}
+
+.margaba10{margin-bottom:10px;}
+.margaba20{margin-bottom:20px;}
+
+.padarr20{padding-top: 20px;}
+
+.anchofull{width:100%!important;}
+
+@media (max-width:768px){
+	section{
+		padding:20px 0px;
+	}
+}
+
+/* FIN VARIOS ================================  */
+
+
+/* HEADER  ---------------------------------------------------------------*/
+.logo{
+	margin-top:30vh;
+	margin-left:35%;
+	width:30%;
+	position:absolute;
+}
+
+.carousel-caption h2{
+	text-shadow: 3px 4px 1px rgba(5,5,5,.9);
+	text-align:center;
+	font-size:35px;
+	text-transform:uppercase;
+	line-height:1;
+}
+
+#carouselheader, #carouselheader .item{
+	width:100%;
+	height:70vh;
+}
+
+#carouselheader .item{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#carousel_1{
+    background-image: url('../img/header/header1.jpg');
+}
+
+#carousel_2{
+    background-image: url('../img/header/header2.jpg');
+}
+
+#carousel_3{
+    background-image: url('../img/header/header3.jpg');
+}
+
+
+
+#carousel_5{
+    background-image: url('../img/header/header5.jpg');
+}
+
+#carousel_6{
+    background-image: url('../img/header/header6.jpg');
+}
+
+
+
+#carousel_8{
+    background-image: url('../img/header/header8.jpg');
+}
+
+#carousel_9{
+    background-image: url('../img/header/header9.jpg');
+}
+
+#carousel_10{
+    background-image: url('../img/header/header10.jpg');
+}
+
+
+
+
+@media (max-width:768px){
+	.logo{
+		margin-top:57vh;
+		margin-left:17%;
+		width:66%;
+		position:absolute;
+	}
+	.carousel-caption h2{
+		font-size:27px;
+	}
+	header{
+		margin-top:-15px;
+	}
+}
+
+/* /HEADER ===================================== */
+
+
+
+/*  NOSOTROS  -----------------------------------------------------------*/
+
+#nosotros{ 
+    background-color: #f5f4f3;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	min-height:100vh;
+}
+
+#nosotros h1{ 
+	color:#2d2d2b;
+}
+
+
+/*  /NOSOTROS  ==================================*/
+
+
+/*  COMODIDADES  -----------------------------------------------------------*/
+
+#comodidades{ 
+    background-color: #f5f4f3;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	min-height:100vh;
+}
+
+#comodidades h1, #comodidades p, #comodidades h4, #comodidades h3{ 
+	color:#2d2d2b;
+	
+}
+
+#comodidades .cuadro{ 
+	background-color: white;
+	border: 1px solid #2d2d2b;
+	padding:10px;
+	border-radius: 12px 12px 12px 12px;
+	-moz-border-radius: 12px 12px 12px 12px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	color:#2d2d2b;
+	
+	display: table;
+
+}
+
+
+@media (max-width:1200px){
+	.botonuno{
+		height:20px!important;
+	}
+	.botonuno h3{
+		margin-top: -4px!important;
+		margin-bottom: -2px;
+	}
+}
+
+@media (max-width:768px){
+	#comodidades .cuadro{
+		padding:0px 10px;
+	}
+	.botonuno{
+		height:44px!important;
+	}
+	.botonuno h3{
+		margin-top: 9px!important;
+		margin-bottom: -2px;
+	}
+}
+
+/*  /COMODIDADES  FIN ==================================*/
+
+
+
+/*  OFRECEMOS  -----------------------------------------------------------*/
+
+#ofrecemos{ 
+    background-color: #f5f4f3;
+    color: #2d2d2b;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	min-height:100vh;
+}
+
+/*  /OFRECEMOS  FIN ==================================*/
+
+
+
+/*  GALERIAS  -----------------------------------------------------------*/
+
+#galerias{ 
+	min-height:100vh;
+    background-color: #f5f4f3;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	min-height:100vh;
+}
+
+#galerias h1{
+	margin-bottom:7px;
+}  
+#galerias a, #galerias h2{
+	color:white;
+}  
+
+#galerias h3{
+	background-color:black;
+	color:white;
+	padding:10px;
+	margin-top:0px;
+}
+
+@media (max-width:768px){
+	.imagen{
+		padding:0px 10px;
+	}
+	.rowxs{
+		margin:0px!important;
+	}
+	#galerias  .col-xs-6{
+		padding:0px!important;
+	}
+}
+
+/*  GALERIAS  FIN ==================================*/
+
+
+
+/* VIDEOS  --------------------------------------------------------  */
+#videos{
+	padding:0px!important;
+	background-color:black;
+}
+
+.iralcanal{
+	position:absolute;
+	bottom:28px;
+	right:33px;
+	background-color:white;
+	z-index:50;
+	padding:10px 15px;
+}
+.iralcanal h3{
+	margin:0px;
+}
+
+/*  VIDEOS   FIN ==================================*/
+
+
+
+/* CONTACTO --------------------------------------------------------  */
+#contacto{ 
+	min-height:100vh;
+	background-color: #f5f4f3;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	min-height:100vh;
+}
+
+#contacto{
+	padding-bottom:0px;
+}
+
+#contacto	form .row:first-child .floating-label-form-group {
+		border-top: 1px solid #eee;
+}
+
+#contacto	.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+#contacto	.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+#contacto	label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.list-inline>li{
+	width:40px;
+	height:40px;
+	background-color:white;
+	font-size:20px;
+	border-radius: 20px;
+	-moz-border-radius: 20px ;
+	-webkit-border-radius: 20px ;
+	padding:6px 10px 10px 10px ;
+	margin-bottom:20px;
+}
+
+.list-inline>li>a{
+	color:black;
+}
+
+#contacto	.floating-label-form-group input, .floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+#contacto .form-control {
+    display: block;
+    width: 100%;
+    height: 43px;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: black;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #dce4ec;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#contacto	.floating-label-form-group input, #contacto	.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+#contacto .btn{
+	color:black;
+	background-color:white;
+	padding:5px 20px;
+}
+
+#contacto textarea{
+	color:white;
+	height:200px!important;
+}
+
+#mapa{
+	width: 100%;
+	padding-top:40px;
+}
+
+#mapa iframe{
+	width: 100%;
+	height: 70vh;
+	margin-bottom:-5px;
+}
+
+@media (max-width:768px){
+	#contacto h1{
+		margin-bottom:20px;
+	}
+	#contacto h2{
+		font-size:21px;
+	}
+	
+}
+
+/*  CONTACTO  FIN ==================================*/
+
+
+.panel-heading h4{
+	color:black;
+	font-size:20px;
+}
+
+.panel-default{
+	background-color: rgba(255, 255, 255, 0.9);
+	border:none;
+}
+
+
+/* MODAL --------------------------------------------------------  */
+.modal-dialog{
+	width:70%!important;
+}
+
+.close{
+	margin-top:-10px!important;
+}
+
+.close span{
+	font-size:25px!important;
+}
+
+@media (max-width:768px){
+	.modal-dialog{
+		width:auto!important;
+	}
+	.carouselgaleria{
+		margin:0px -30px!important;
+	}
+	.modalgaleria{
+		padding:0px 15px!important;
+	}
+	.carousel-indicators{
+		bottom:-35px;
+	}
+	.carousel-indicators li{
+		border: 1px solid gray;
+	}
+	.carousel-indicators .active{
+		background-color:gray;
+	}
+	modal-body h3{
+		font-size:20px;
+	}
+
+	.modal-body p, .panel-body p{
+		font-size:16px;
+	}
+}
+
+
+
+/* MODAL FIN ================================  */
+		
+		
+/* NAVBAR ================================  */
+
+.page-scroll p{
+	font-family: "Times New Roman", Georgia, Serif;
+	color:white;
+	font-size:26px;
+	margin-top:2px;
+	margin-bottom:5px;
+}
+.page-scroll{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.navdire{
+	color:white;
+	position: relative;
+	top: 38px;
+	left: 5px;
+}
+
+
+@media (max-width:1190px){
+	.navdire{
+		font-size:12px;	
+	}
+	.navdire {
+		margin-top:5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.bandera{
+	margin-top:12px;
+}
+
+.nav>li>a {
+    padding: 8px 9px;
+}
+
+/*COLOR NAVBAR*/
+		.navbar {
+			border-bottom-color:white!important;
+			padding-top:5px;
+		}
+		
+/*LOGO CHICO*/
+		.navbar-brand {
+			padding-left:10px;
+			padding-top:22px;
+		}
+
+		.navbar-header img{
+			width:160px;		
+			margin-top:5px;
+			margin-bottom: 5px;
+		}
+
+		@media (max-width:768px){
+			.navbar-header {
+				padding-left:10px;
+			}
+			.navbar-header img{
+				width:75px;		
+				margin-top:9px;
+			}
+			.navbar  p{
+				line-height:1.2;
+				margin-top:-26px;
+				margin-bottom:5px;
+			}
+			.carousel-caption{
+				bottom:40px;
+			}
+			.navdire{
+				color:#eacac6;
+				font-size:12px;
+				margin-left:83px;
+			}
+		}			
+
+/*COLOR TEXTOS*/
+		.navbar-default .nav li a{
+			color:white!important;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 400;
+			font-size:12px;
+		}
+
+/*COLOR TEXTOS SOBRE*/
+		.navbar-default .nav li a:hover,
+		.navbar-default .nav li a:focus {
+			color:white!important;
+			background-color:#a0483e!important;
+		}
+		
+/*COLOR DROPDOWN TEXTOS */		
+	.navbar-default .navbar-nav>.active>a {
+		border-radius: 0;
+		background-color: red;	
+	}	
+	
+/*CUADRITO COLOR*/			
+		.navbar-default .navbar-toggle,.navbar-default .navbar-toggle{ 
+			background-color:#C76D63!important;
+		}
+
+/*CUADRITO COLOR SOBRE*/		
+		.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{ 
+		background-color:#a0483e!important;
+		}
+
+/*CUADRITO RAYAS*/	
+		.navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle{ 
+			background-color:white;
+			border-color:white;
+		} 
+
+/*COLOR DESPLEGABLE*/
+		.dropdown-menu{
+			background-color:#EB3B00;
+		}
+
+		@media screen and (max-width: 778px) {
+				.navbar-default .nav li a{
+					font-size:13.5px;
+				}
+		}
+
+
+		.navbar{
+			padding:0px!important;/*navbar no modifica alto*/
+		}
+
+		@media (max-width:768px){
+			.navbar{
+				padding-top:1px!important;
+			}
+		}
+		.margmenu{
+			margin-top:54px;
+		}
+		
+		/*menu no se corta  a la derecha*/
+		.navbar-right {
+			padding-right:20px;
+		}
+
+		.modal-dialog{
+			width:70%;
+		}
+		
+		
+		
+		
+/* FIN NAVBAR ================================  */
+
+
+@media (min-width:767px){
+	.show-xs{
+		display:none!important;
+	}
+}
+
+@media (max-width:767px){
+	.hidden-xs{
+		display:none!important;
+	}
+	.show-xs{
+		display:block!important;
+	}
+}
